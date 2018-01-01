@@ -7,16 +7,15 @@ body {
     font: 14px/1.7 'Patua One', arial, helvetica, sans-serif;
     color: #594433;
     text-align: center;
-    background: #faf6df;
+    background: #f8f4e6;
 }
 
 a {
-    color: #333;
+    color: #ffffff;
 }
 
 a:hover {
-    color: #a70f00;
-    text-decoration: none;
+    color: #ffffff;
 }
 
 h1 {
@@ -50,16 +49,20 @@ section {
     padding-bottom: 150px;
 }
 
-#section1 {
-    background-color: #5ba4cf;
+#skills {
+    background-color: #4496d3;
 }
 
-#section2 {
-    background-color: #cf6a80;
+#products {
+    background-color: #e95388;
 }
 
-#section3 {
-    background-color: #61c06a;
+#outputs {
+    background-color: #79c06e;
+}
+
+#career {
+    background-color: #fac559;
 }
 
 section:after {
@@ -72,11 +75,14 @@ section:after {
     width: 100%;
 }
 
-#section1:after {
-    background: url("../svg/separate_right_up.svg");
+#skills:after {
+    background: url("../svg/right_up_products.svg");
 }
 
-#section2:after {
-    background: url("../svg/separate_right_down.svg");
+#products:after {
+    background: url("../svg/right_down_outputs.svg");
 }
 
+#outputs:after {
+    background: url("../svg/right_up_career.svg");
+}
