@@ -1,1 +1,98 @@
-.shortcut,html{color:#24140e}body{margin:0;font-size:1.5em}html{padding:0;line-height:1.6;background:#f8f4e6;text-align:center;font-weight:400;font-family:Raleway,HelveticaNeue,"Helvetica Neue","Helvetica, Arial",sans-serif;font-size:62.5%}.title{font-size:16px;padding-top:80px;padding-bottom:150px}.external{color:#fff}.name{font-size:62px;margin-bottom:20px;color:#24140e;letter-spacing:.03em}.subtitle{font-size:40px;letter-spacing:.06em}.inner{padding:100px 0}.icon{width:150px;height:150px;border-radius:400px}.category{color:#fff;padding-bottom:150px}.category:after{content:"";background-repeat:no-repeat;background-size:100% 100%;display:block;height:150px;position:absolute;width:100%}#skills{background-color:#4496d3}#products{background-color:#e95388}#output{background-color:#79c06e}#career{background-color:#fac559}#skills:after{background:url(../svg/right_up_products.svg)}#products:after{background:url(../svg/right_down_output.svg)}#output:after{background:url(../svg/right_up_career.svg)}.copyright{margin:20px 0}
+body {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+html {
+    padding: 0;
+    line-height: 1.6;
+    background: #f8f4e6;
+    color: #24140e;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", "Helvetica, Arial", "sans-serif";
+    font-size: 62.5%;
+}
+
+.title {
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.shortcut {
+    color: #24140e;
+}
+
+.external {
+    color: #ffffff;
+}
+
+.name {
+    font-size: 62px;
+    margin-bottom: 20px;
+    color: #24140e;
+    letter-spacing: 0.03em;
+}
+
+.subtitle {
+    font-size: 40px;
+    letter-spacing: 0.06em;
+}
+
+.inner {
+    padding: 100px 0;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+
+.category {
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+.category:after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+}
+
+#skills {
+    background-color: #4496d3;
+}
+
+#products {
+    background-color: #e95388;
+}
+
+#output {
+    background-color: #79c06e;
+}
+
+#career {
+    background-color: #fac559;
+}
+
+#skills:after {
+    background: url("../svg/right_up_products.svg");
+}
+
+#products:after {
+    background: url("../svg/right_down_output.svg");
+}
+
+#output:after {
+    background: url("../svg/right_up_career.svg");
+}
+
+.copyright {
+    margin: 20px 0;
+}
