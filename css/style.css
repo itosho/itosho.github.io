@@ -72,7 +72,7 @@ section {
     background-color: #e95388;
 }
 
-#outputs {
+#output {
     background-color: #79c06e;
 }
 
@@ -95,10 +95,10 @@ section:after {
 }
 
 #products:after {
-    background: url("../svg/right_down_outputs.svg");
+    background: url("../svg/right_down_output.svg");
 }
 
-#outputs:after {
+#output:after {
     background: url("../svg/right_up_career.svg");
 }
 
