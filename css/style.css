@@ -1,20 +1,27 @@
-* {
+html {
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
 
 body {
-    font: 14px/1.7 'Patua One', arial, helvetica, sans-serif;
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
     color: #594433;
     text-align: center;
     background: #f8f4e6;
 }
 
-a {
+section a {
     color: #ffffff;
 }
 
-a:hover {
+section a:hover {
     color: #ffffff;
 }
 
@@ -30,11 +37,21 @@ h2 {
     letter-spacing: 0.06em;
 }
 
-#section-title {
+#title {
     font-size: 16px;
     color: #594433;
     padding-top: 80px;
+
 }
+
+#title a {
+    color: #594433;
+}
+
+#title a:hover {
+    color: #594433;
+}
+
 
 footer {
     padding-bottom: 60px;
