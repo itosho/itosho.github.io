@@ -10,7 +10,7 @@ html {
     color: #24140e;
     text-align: center;
     font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", "Helvetica, Arial", "sans-serif";
     font-size: 62.5%;
 }
 
@@ -24,22 +24,18 @@ html {
     color: #24140e;
 }
 
-section a {
+.external {
     color: #ffffff;
 }
 
-section a:hover {
-    color: #ffffff;
-}
-
-h1 {
+.name {
     font-size: 62px;
     margin-bottom: 20px;
     color: #24140e;
     letter-spacing: 0.03em;
 }
 
-h2 {
+.subtitle {
     font-size: 40px;
     letter-spacing: 0.06em;
 }
@@ -48,9 +44,25 @@ h2 {
     padding: 100px 0;
 }
 
-section {
+.icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+
+.category {
     color: #fff;
     padding-bottom: 150px;
+}
+
+.category:after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 150px;
+    position: absolute;
+    width: 100%;
 }
 
 #skills {
@@ -67,16 +79,6 @@ section {
 
 #career {
     background-color: #fac559;
-}
-
-section:after {
-    content: "";
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: block;
-    height: 150px;
-    position: absolute;
-    width: 100%;
 }
 
 #skills:after {
