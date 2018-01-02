@@ -1,5 +1,8 @@
-html {
+body {
     margin: 0;
+}
+
+html {
     padding: 0;
     font-size: 62.5%;
 }
@@ -12,7 +15,7 @@ body {
 }
 
 body {
-    color: #594433;
+    color: #24140e;
     text-align: center;
     background: #f8f4e6;
 }
@@ -28,7 +31,7 @@ section a:hover {
 h1 {
     font-size: 62px;
     margin-bottom: 20px;
-    color: #594433;
+    color: #24140e;
     letter-spacing: 0.03em;
 }
 
@@ -39,22 +42,17 @@ h2 {
 
 #title {
     font-size: 16px;
-    color: #594433;
+    color: #24140e;
     padding-top: 80px;
 
 }
 
 #title a {
-    color: #594433;
+    color: #24140e;
 }
 
 #title a:hover {
-    color: #594433;
-}
-
-
-footer {
-    padding-bottom: 60px;
+    color: #24140e;
 }
 
 .inner {
@@ -102,4 +100,8 @@ section:after {
 
 #outputs:after {
     background: url("../svg/right_up_career.svg");
+}
+
+footer {
+    margin: 20px 0;
 }
