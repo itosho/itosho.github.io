@@ -1,23 +1,27 @@
 body {
     margin: 0;
+    font-size: 1.5em;
 }
 
 html {
     padding: 0;
+    line-height: 1.6;
+    background: #f8f4e6;
+    color: #24140e;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 62.5%;
 }
 
-body {
-    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.title {
+    font-size: 16px;
+    padding-top: 80px;
+    padding-bottom: 150px;
 }
 
-body {
+.shortcut {
     color: #24140e;
-    text-align: center;
-    background: #f8f4e6;
 }
 
 section a {
@@ -38,21 +42,6 @@ h1 {
 h2 {
     font-size: 40px;
     letter-spacing: 0.06em;
-}
-
-#title {
-    font-size: 16px;
-    color: #24140e;
-    padding-top: 80px;
-
-}
-
-#title a {
-    color: #24140e;
-}
-
-#title a:hover {
-    color: #24140e;
 }
 
 .inner {
@@ -102,6 +91,6 @@ section:after {
     background: url("../svg/right_up_career.svg");
 }
 
-footer {
+.copyright {
     margin: 20px 0;
 }
