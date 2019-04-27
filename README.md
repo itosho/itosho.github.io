@@ -1,4 +1,4 @@
 # itosho.github.io
-Github Pages For Me!
+My homepage.
 
 URL: https://itosho.dev/
