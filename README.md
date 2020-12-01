@@ -1,4 +1,4 @@
 # itosho.github.io
-My homepage.
+My website.
 
 URL: https://itosho.dev/
