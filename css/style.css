@@ -50,6 +50,10 @@ html {
     border-radius: 400px;
 }
 
+.icon:hover {
+  background:url('img/secret.jpg');
+}
+
 .category {
     color: #fff;
     padding-bottom: 150px;
